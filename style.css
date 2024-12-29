@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:white;
+    gap: 20px; 
+}
+.container1{
+    margin-top: 50px;
+}
+
+.container1, .container2 {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 80%; 
+    text-align: center;
+    
+    
+}
+
+.form1, .form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+img {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #007ace;
+}
+
+.fb a {
+    color: #4267B2;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.divider {
+    font-size: 14px;
+    color: #aaa;
+    margin: 10px 0;
+}
+.img1,.img2{
+    height:50px;
+    width:100px
+
+}
+footer {
+    background-color: #f3f3f3;
+    padding: 2px ;
+    border-top: 1px solid #ddd;
+}
+footer .links a:hover {
+    text-decoration: underline;
+    color: #0095f6;
+}
+footer .links {
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    padding: 20px; 
+}
+.last{
+    display: flex;
+    padding-left: 60px;
+    gap: 20px;
+}
